@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<main
+  className="library__main"
+>
+  <h2>
+    Search For Your Books
+  </h2>
+  <div
+    className="library__search-container"
+  >
+    <input
+      className="form-control"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Enter a search term"
+      type="text"
+      value=""
+    />
+    <div
+      className="btn-group"
+      role="group"
+    >
+      <button
+        aria-label={null}
+        className="btn btn-primary"
+        onClick={[Function]}
+        type="button"
+      >
+        Search
+      </button>
+      <button
+        aria-label={null}
+        className="btn btn-danger"
+        onClick={[Function]}
+        type="button"
+      >
+        X
+      </button>
+    </div>
+  </div>
+  <div
+    className="library__books-container"
+  >
+    <h3>
+      Search Results
+    </h3>
+    <div>
+      No Data
+    </div>
+  </div>
+  <div
+    className="library__books-container"
+  >
+    <h3>
+      Your Bookshelf
+    </h3>
+    <div>
+      No Data
+    </div>
+  </div>
+</main>
+`;

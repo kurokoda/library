@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="library__book"
+>
+  <h6>
+    Book Title
+  </h6>
+  <p>
+    J
+  </p>
+  <button
+    aria-label={null}
+    className="btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    Label
+  </button>
+</div>
+`;

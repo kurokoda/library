@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="library__books-container"
+>
+  <h3>
+    Label
+  </h3>
+  <div>
+    No Data
+  </div>
+</div>
+`;
