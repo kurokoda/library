@@ -18,7 +18,7 @@ const BooksContainer = ({
   onPageChange,
 }) => {
   const hasBooks = () => {
-    return count;
+    return books.length;
   };
 
   return (
