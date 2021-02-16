@@ -64,7 +64,7 @@ const BooksContainer = ({
 BooksContainer.defaultProps = {
   books: [],
   buttonLabelSaved: null,
-  count: 0,
+  count: null,
   savedBooks: null,
 };
 
