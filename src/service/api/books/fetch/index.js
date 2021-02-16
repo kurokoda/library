@@ -11,7 +11,7 @@ async function fetchBooks(query, page = 1) {
   if (!cache[queryKey]) {
     console.log(`Requesting ${queryKey} from api`);
     cache[queryKey] = { isLoading: true };
-    const url = `http://openlibrary.org/search.json?q=${normalizedQuery}&page=${page}`;
+    const url = `https://openlibrary.org/search.json?q=${normalizedQuery}&page=${page}`;
     const result = await axios.get(url);
     const booksWithIds = result.data.docs.map((doc) => {
       doc.uuid = shortId.generate();
